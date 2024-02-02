@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "copilot",
+  "version": "2.0.0",
+  "description": "Sheets helper",
+  "icons": {
+    "16": "gojo.png",
+    "48": "gojo.png",
+    "128": "gojo.png"
+  },
+  "background": {},
+  "permissions": ["storage"],
+  "host_permissions": [
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
